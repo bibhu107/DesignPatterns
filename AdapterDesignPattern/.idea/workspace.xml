@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d44f1509-5b33-4d3a-9963-57cd17910106" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1fBiW95PpEDFTiWtG5wwrrdvv8m" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showModules" value="false" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunManager">
+    <configuration name="School" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="School" />
+      <module name="AdapterDesignPattern" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.School" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d44f1509-5b33-4d3a-9963-57cd17910106" name="Default Changelist" comment="" />
+      <created>1595697915884</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595697915884</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="354" y="127" key="#Project_Structure" timestamp="1595697934495">
+      <screen x="65" y="23" width="1375" height="877" />
+    </state>
+    <state x="354" y="127" key="#Project_Structure/65.23.1375.877@65.23.1375.877" timestamp="1595697934495" />
+    <state x="567" y="178" key="#com.intellij.ide.util.MemberChooser" timestamp="1595698915006">
+      <screen x="65" y="23" width="1375" height="877" />
+    </state>
+    <state x="567" y="178" key="#com.intellij.ide.util.MemberChooser/65.23.1375.877@65.23.1375.877" timestamp="1595698915006" />
+    <state width="1330" height="230" key="GridCell.Tab.0.bottom" timestamp="1595699235745">
+      <screen x="65" y="23" width="1375" height="877" />
+    </state>
+    <state width="1330" height="230" key="GridCell.Tab.0.bottom/65.23.1375.877@65.23.1375.877" timestamp="1595699235745" />
+    <state width="1330" height="230" key="GridCell.Tab.0.center" timestamp="1595699235744">
+      <screen x="65" y="23" width="1375" height="877" />
+    </state>
+    <state width="1330" height="230" key="GridCell.Tab.0.center/65.23.1375.877@65.23.1375.877" timestamp="1595699235744" />
+    <state width="1330" height="230" key="GridCell.Tab.0.left" timestamp="1595699235744">
+      <screen x="65" y="23" width="1375" height="877" />
+    </state>
+    <state width="1330" height="230" key="GridCell.Tab.0.left/65.23.1375.877@65.23.1375.877" timestamp="1595699235744" />
+    <state width="1330" height="230" key="GridCell.Tab.0.right" timestamp="1595699235745">
+      <screen x="65" y="23" width="1375" height="877" />
+    </state>
+    <state width="1330" height="230" key="GridCell.Tab.0.right/65.23.1375.877@65.23.1375.877" timestamp="1595699235745" />
+    <state x="516" y="75" key="refactoring.ChangeSignatureDialog" timestamp="1595698849826">
+      <screen x="65" y="23" width="1375" height="877" />
+    </state>
+    <state x="516" y="75" key="refactoring.ChangeSignatureDialog/65.23.1375.877@65.23.1375.877" timestamp="1595698849826" />
+  </component>
+</project>
