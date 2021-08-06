@@ -9,7 +9,7 @@ import java.util.HashMap;
 @Data
 @Builder
 @RequiredArgsConstructor
-public class User extends Activities{
+public class User  {
     String userName;
     String number;
     HashMap<String, String> contactList;

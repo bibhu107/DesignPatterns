@@ -3,7 +3,7 @@ package com.company;
 import lombok.AllArgsConstructor;
 
 @AllArgsConstructor
-public class CallEvent  extends Event{
+public class CallEvent {
     String number;
-   super(this)
+
 }
