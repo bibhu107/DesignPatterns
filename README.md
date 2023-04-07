@@ -5,10 +5,70 @@
 * [Low Level Design ](https://github.com/bibhu107/DesignPatterns#Low-level-design)
   * [Do's and Dont's](https://github.com/bibhu107/DesignPatterns#Do's-and-Dont's)
   * [Low level desgin Principle]((#Low Level Design Principles]))
+    * Creational Pattern
+      * Builder Pattern
+    * Structural pattern
+      * Adapter pattern
+    * Behavioral pattern
+      * Template method pattern
   * [LLD Questions](#Low Level design Question])
+    * Parking lot problem
+    * Design tick-tock
+    * Design sudoku
+    * 
 * [High level Design](#Low Level Design Principles])
   * [High level Desgin Principle]((#Low Level Design Principles]))
-  * [LLD Questions](#Low Level design Question])
+    * Functional vs NonFuctional requirements
+    * Rate limiter
+    * Load balancer
+    * Scaling
+    * Horizontal scalling
+    * Consistency
+    * CAP Theorem
+    * CDN
+    * TCP vs UDP
+    * Rest APIs
+    * DNS
+    * Data Loss and data corruption
+    * Read : Write Ration
+    * Caching
+      * Thundering Heard problem
+      * Distributed caching
+    * Databases
+      * For Transactional
+      * For Analyitcal
+      * Partitioning the data
+    * Paritioning
+    * Auto Scaling & Replication
+      * Handling Spiky traffic
+    * Consensus algorithm
+    * Availability
+    * SQL vs No-SQL
+    * Consistent Hashing
+    * Search Engines
+    * Web Crawling
+    * Storage Schemas
+    * Brokers - SQS, Firehose etc
+    * Privacy
+    * Security
+    * Potential Attacks 
+      * In Network
+      * On Red Data
+    * Testing scenarios
+      * Load test
+      * Integration tests
+      * Stress the system
+      * Covering edge cases
+    * Time Created and Time Updated row
+    * Error Handling mechansims
+    
+      
+  * [HLD Questions](#Low Level design Question])
+    * Design Youtube
+    * Design Whatsap
+    * Design Instagram
+    * Design NewsFeed
+    * Design Netflix
 
 ## Java Basics
 1. [Abstract Class](https://www.javatpoint.com/abstract-class-in-java) :
