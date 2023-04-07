@@ -1,8 +1,9 @@
 # **System Design Guide**
-# Table of Contents
+## Table of Contents
 * [Java Basics](https://github.com/bibhu107/DesignPatterns#java-basics)
-* [OOPS Concepts Basics](https://github.com/bibhu107/DesignPatterns#java-basics)
-* [Low Level Design ](https://github.com/bibhu107/DesignPatterns#java-basics)
+* [OOPS Concepts Basics](https://github.com/bibhu107/DesignPatterns#OOPS-basics)
+* [Low Level Design ](https://github.com/bibhu107/DesignPatterns#Low-level-design)
+  * [Do's and Dont's](https://github.com/bibhu107/DesignPatterns#Do's-and-Dont's)
   * [Low level desgin Principle]((#Low Level Design Principles]))
   * [LLD Questions](#Low Level design Question])
 * [High level Design](#Low Level Design Principles])
@@ -20,8 +21,6 @@ abstract void draw();
       1. An abstract function has no implementation and must be in an abstract class. It can only be declared. This forces the derived class to provide the implementation of it. 
       2. An abstract member is implicitly virtual. The abstract can be called as pure virtual in some of the languages.
       3. An Abstract Method must have to implement in the child class
-
-   
 
    4. An instance of an abstract class can not be created.
    5. If a class contains at least one abstract method then compulsory should declare a class as abstract
@@ -44,7 +43,7 @@ Questions on OOPS
 
 ## Low level design
 
-
+### **Do's and Dont's**
 `Dont's`
 * Don’t unnecessarily add functionalities unless its needed
 * Don’t repeat code, re-use code to most, duplicate
@@ -67,10 +66,27 @@ Questions on OOPS
 ### **Design Patterns** 
 
 #### **[Creational patterns](https://sourcemaking.com/design_patterns/creational_patterns)**
+Creational design patterns solve this problem by somehow controlling this object creation.
+Creational patterns are below: 
 
-examples of creational patterns are below 
-:
-1. Factory pattern
+##### 1. **Factory Pattern**
+##### 2. **[Abstract Factory Pattern](https://sourcemaking.com/design_patterns/abstract_factory)**
+##### 3. **Singelton pattern Pattern**
+##### 4. **[Builer Pattern](https://sourcemaking.com/design_patterns/builder)**
+##### 4. **[Prototype Pattern](https://www.tutorialspoint.com/design_pattern/prototype_pattern.htm)**
+        Prototype pattern refers to creating duplicate object while keeping performance in mind. 
+    This type of design pattern comes under creational pattern as this pattern provides one of the best ways to create an object.
+    This pattern involves implementing a prototype interface which tells to create a clone of the current object. This pattern is used when creation of object directly is costly. For example, an object is to be created after a costly database operation. We can cache the object, returns its clone on next request and update the database as and when needed thus reducing database calls.
+
+        
+
+
+
+##### 6. **Template Method Pattern**
+##### 7. **Iterator Pattern**
+##### 8. **State Pattern**
+##### 9. **Null Object Pattern**
+
 
 2. Abstract factory pattern - https://sourcemaking.com/design_patterns/abstract_factory
 3. Singelton pattern 
@@ -143,11 +159,13 @@ examples of creational patterns are below
 ##### 2. Proxy pattern
 
 
-1.  Pattern
-
 #### **[Behavioral patterns](https://sourcemaking.com/design_patterns/behavioral_patterns)**
+##### 1. Observer pattern
+##### 1. Observer pattern
 
-    1.
+##### 1. Observer pattern
+
+##### 1. Observer pattern
 
 
 Low Level Design Questions
