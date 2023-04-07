@@ -3,7 +3,6 @@ System Design
 
 Question banks: https://github.com/prasadgujar/low-level-design-primer/blob/master/questions.md
 
-
 1. TinyURL - HLD
 2. Central logging system - HLD
 3. CAR Parking system - LLD
@@ -13,9 +12,8 @@ Question banks: https://github.com/prasadgujar/low-level-design-primer/blob/mast
 7. Spotify HLD
 8. Twitter
 9. Reddit HLD - https://leetcode.com/discuss/interview-question/object-oriented-design/124550/design-reddit
-10.
-11. BookMyshow LLD components and services
-12. https://leetcode.com/discuss/interview-question/object-oriented-design/1971774/Bookmyshow-LLD-components-and-services
+10. BookMyshow LLD components and services
+11. https://leetcode.com/discuss/interview-question/object-oriented-design/1971774/Bookmyshow-LLD-components-and-services
 
 
 
@@ -41,11 +39,13 @@ Design principles:
 5. Whenever there is an opportunity to make something immutable make it immutable
 6. https://sourcemaking.com/design_patterns/creational_patterns
 
-Creational patterns
+Creational patterns -
+
+https://sourcemaking.com/design_patterns/creational_patterns
 
 1. Factory pattern
 
-Abstract factory pattern - https://sourcemaking.com/design_patterns/abstract_factory
+2. Abstract factory pattern - https://sourcemaking.com/design_patterns/abstract_factory
 
         1.
     1. Singelton pattern
@@ -55,6 +55,7 @@ Abstract factory pattern - https://sourcemaking.com/design_patterns/abstract_fac
     5. Iterator pattern
     6. State pattern
     7. Null object pattern
+    8. Builer pattern - https://sourcemaking.com/design_patterns/builder
 
 
 
