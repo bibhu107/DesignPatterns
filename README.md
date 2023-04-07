@@ -1,5 +1,13 @@
 # **System Design Guide**
-
+# Table of Contents
+* [Java Basics](#Java Basics)
+* [OOPS Concepts Basics](OOPS Basics)
+* [Low Level Design ]((#Low Level Design Principles]))
+  * [Low level desgin Principle]((#Low Level Design Principles]))
+  * [LLD Questions](#Low Level design Question])
+* [High level Design](#Low Level Design Principles])
+  * [High level Desgin Principle]((#Low Level Design Principles]))
+  * [LLD Questions](#Low Level design Question])
 
 ## Java Basics
 1. [Abstract Class](https://www.javatpoint.com/abstract-class-in-java) :
@@ -19,7 +27,9 @@ abstract void draw();
    5. If a class contains at least one abstract method then compulsory should declare a class as abstract
 
 
-2. [OOPS](https://www.geeksforgeeks.org/object-oriented-programming-oops-concept-in-java/)
+## OOPS basics
+[Basics]
+(https://www.geeksforgeeks.org/object-oriented-programming-oops-concept-in-java/)
     1. Object , Class, Inheritance, Polymorphism, Abstraction, Encapsulation
     2. Polymorphisim
     3. Method Overloading
