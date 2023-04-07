@@ -2,7 +2,7 @@
 # Table of Contents
 * [Java Basics](https://github.com/bibhu107/DesignPatterns#java-basics)
 * [OOPS Concepts Basics](https://github.com/bibhu107/DesignPatterns#java-basics)
-* [Low Level Design ]((#Low Level Design Principles]))
+* [Low Level Design ]()
   * [Low level desgin Principle]((#Low Level Design Principles]))
   * [LLD Questions](#Low Level design Question])
 * [High level Design](#Low Level Design Principles])
@@ -42,7 +42,7 @@ Questions on OOPS
 
 
 
-## ****Low level design Principles:****
+## ****Low level design ****
 
 
 `Dont's`
@@ -64,7 +64,7 @@ Questions on OOPS
 * Method Overloading can be chosen instead of complex adapter design pattern if the use cases are small. 
 
 
-### **Design Patters** 
+### **Design Patterns** 
 
 #### **[Creational patterns](https://sourcemaking.com/design_patterns/creational_patterns)**
 
