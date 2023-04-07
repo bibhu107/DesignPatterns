@@ -1,6 +1,6 @@
 # **System Design Guide**
 # Table of Contents
-* [Java Basics](#Java Basics)
+* [Java Basics](https://github.com/bibhu107/DesignPatterns#java-basics)
 * [OOPS Concepts Basics](OOPS Basics)
 * [Low Level Design ]((#Low Level Design Principles]))
   * [Low level desgin Principle]((#Low Level Design Principles]))
