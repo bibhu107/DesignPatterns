@@ -2,6 +2,7 @@
 ## Table of Contents
 * [Java Basics](https://github.com/bibhu107/DesignPatterns#java-basics)
 * [OOPS Concepts Basics](https://github.com/bibhu107/DesignPatterns#OOPS-basics)
+* [Operating System]()
 * [Low Level Design ](https://github.com/bibhu107/DesignPatterns#Low-level-design)
   * [Do's and Dont's](https://github.com/bibhu107/DesignPatterns#Do's-and-Dont's)
   * [Low level desgin Principle]((#Low Level Design Principles]))
@@ -18,11 +19,11 @@
 
 * [High level Design](#Low Level Design Principles])
   * [High level Desgin Principle]((#Low Level Design Principles]))
-    * Problems with distributed systems and their handling
     * Functional vs NonFuctional requirements
     * Rate limiter
     * Load balancer
     * Scaling
+    * Sharding
     * Horizontal scalling
     * Consistency
     * CAP Theorem
@@ -97,6 +98,8 @@ abstract void draw();
     4. Method overwriting
 
 Questions on OOPS
+
+## Operating System
 
 
 ---
@@ -204,6 +207,8 @@ Creational patterns are below:
         6. Don't forget that singleton is a creational pattern, while flyweight is a structural pattern. Hence, the goal of the two patterns is completely different
     
 ##### 2. Bridge pattern
+
+![alt text](Documentation/ExampleDiagrams/bridgePattern.png)
     Implementation of bridge pattern
     Advantages
     Bridge pattern decouple an abstraction from its implementation so that the two can vary independently.It is used mainly for implementing platform independence features.
@@ -213,6 +218,7 @@ Creational patterns are below:
       4. Use bridge pattern to map orthogonal class hierarchies
       5. Bridge is designed up-front to let the abstraction and the implementation vary independently.
       6. Use the Bridge if you need to be able to switch implementations at runtime.
+
 
 
 
@@ -250,10 +256,9 @@ Question banks: [https://github.com/prasadgujar/low-level-design-primer/blob/mas
 
 
 
+## High level design
 
-High Level Designing
-
-Basic areas to explore in system designing rouds
+### Distributed Systems Basics
 
 1. Identfying issues in current system
 2. This is a recommended approach to solving system design problems. Not all of these topics will be relevant for a given problem.
@@ -311,6 +316,13 @@ Basic areas to explore in system designing rouds
 
 Another suggest i want to make is always have time_created and time_updated row whenever you are updating. it helps for various purpose - mainly analytics and timeline
 
+### HLD Questions
+Design Youtube
+Design Whatsap
+Design Instagram
+Design NewsFeed
+Design Netflix
 
 
-Operating System Questions
+
+
