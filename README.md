@@ -2,7 +2,7 @@
 # Table of Contents
 * [Java Basics](https://github.com/bibhu107/DesignPatterns#java-basics)
 * [OOPS Concepts Basics](https://github.com/bibhu107/DesignPatterns#java-basics)
-* [Low Level Design ]()
+* [Low Level Design ](https://github.com/bibhu107/DesignPatterns#java-basics)
   * [Low level desgin Principle]((#Low Level Design Principles]))
   * [LLD Questions](#Low Level design Question])
 * [High level Design](#Low Level Design Principles])
@@ -42,7 +42,7 @@ Questions on OOPS
 
 
 
-## ****Low level design ****
+## Low level design
 
 
 `Dont's`
