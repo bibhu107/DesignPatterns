@@ -15,9 +15,10 @@
     * Parking lot problem
     * Design tick-tock
     * Design sudoku
-    * 
+
 * [High level Design](#Low Level Design Principles])
   * [High level Desgin Principle]((#Low Level Design Principles]))
+    * Problems with distributed systems and their handling
     * Functional vs NonFuctional requirements
     * Rate limiter
     * Load balancer
@@ -29,6 +30,7 @@
     * TCP vs UDP
     * Rest APIs
     * DNS
+    * Security
     * Data Loss and data corruption
     * Read : Write Ration
     * Caching
