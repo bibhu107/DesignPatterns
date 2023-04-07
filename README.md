@@ -1,10 +1,26 @@
-LLD Principles & Questions
+**System Design Guide**
 
-Design principles:
 
+Java Basics -
+1. Abstract Class : https://www.javatpoint.com/abstract-class-in-java
+2. [OOPS](https://www.geeksforgeeks.org/object-oriented-programming-oops-concept-in-java/)
+    1. Object , Class, Inheritance, Polymorphism, Abstraction, Encapsulation
+    2. Polymorphisim
+    3. Method Overloading
+    4. Method overwriting
+
+Questions on OOPS
+1.
+
+Low level design Principles:
+
+
+Dont's
 1. Don’t unnecessarily add functionalities unless its needed
 2. Don’t repeat code, re-use code to most, duplicate
-3. SOLID:
+
+Do's
+3. Always follow ``SOLID`` guidelines:
     1. Single - responsibility Principle
         1. A class should have one and only one reason to change, meaning that a class should have only one job.
     2. O - Open-closed Principle
@@ -16,9 +32,13 @@ Design principles:
         1. A client should never be forced to implement an interface that it doesn’t use, or clients shouldn’t be forced to depend on methods they do not use.
     5. D - Dependency Inversion Principle.
         1. Entities must depend on abstractions, not on concretions. It states that the high-level module must not depend on the low-level module, but they should depend on abstractions.
-4. Abstract Class : https://www.javatpoint.com/abstract-class-in-java
-5. Whenever there is an opportunity to make something immutable make it immutable
-6. https://sourcemaking.com/design_patterns/creational_patterns
+4. Whenever there is an opportunity to make something immutable make it immutable
+5. Keep things simple and more readable. People reading code should enjoy reading.
+6. Method Overloading can be chosen instead of complex adapter design pattern if the use cases are small. 
+
+
+
+
 
 Creational patterns -
 
@@ -120,8 +140,6 @@ Question banks: [https://github.com/prasadgujar/low-level-design-primer/blob/mas
 11. https://leetcode.com/discuss/interview-question/object-oriented-design/1971774/Bookmyshow-LLD-components-and-services
 
 
-
-<break>
 
 
 
