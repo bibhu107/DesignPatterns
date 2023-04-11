@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-<<<<<<< HEAD
-      <module fileurl="file://$PROJECT_DIR$/.idea/DesignPatters.iml" filepath="$PROJECT_DIR$/.idea/DesignPatters.iml" />
-=======
       <module fileurl="file://$PROJECT_DIR$/MultiThreading.iml" filepath="$PROJECT_DIR$/MultiThreading.iml" />
->>>>>>> 7bffaae (MultiThreading)
     </modules>
   </component>
 </project>
