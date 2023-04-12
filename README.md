@@ -100,7 +100,80 @@ abstract void draw();
 Questions on OOPS
 
 ## Operating System
+### Multi threading System coding quesitons
+* Write a Java program that creates two threads. One thread prints even numbers from 0 to 10, and the other thread prints odd numbers from 1 to 9. Ensure that the output is in order.
+* 
+* Write a Java program that simulates a race between two threads. Each thread increments a shared counter variable 100 times. Use synchronization to ensure that the counter is incremented correctly.
+* 
+* Write a Java program that simulates a bank account. The account has a balance and supports two operations: deposit and withdraw. Multiple threads can access the account concurrently, but the balance should never be negative. Use synchronization to ensure that the account is accessed correctly.
+* 
+* Write a Java program that simulates a producer-consumer scenario using a shared queue. The producer thread adds items to the queue, and the consumer thread removes items from the queue. Use synchronization to ensure that the queue is accessed correctly.
+* 
+* Write a Java program that simulates a dining philosophers problem. Five philosophers sit at a table and each philosopher alternates between thinking and eating. Each philosopher needs two forks to eat, and the forks are shared resources. Use synchronization to ensure that the forks are accessed correctly.
+* 
+* Write a Java program that creates a thread pool with a fixed number of threads. The program should accept a list of tasks and execute them concurrently using the thread pool.
+* 
+* Write a Java program that simulates a traffic intersection. Cars approach the intersection from four directions and can either go straight, turn left, or turn right. Use synchronization to ensure that the cars do not collide.
+* 
+* Write a Java program that simulates a deadlock scenario. Two threads each acquire a lock on a resource that the other thread needs to proceed. Use synchronization to avoid the deadlock.
+* 
+* Write a Java program that implements a reader-writer lock. Multiple threads can read a shared resource simultaneously, but only one thread can write to the resource at a time. Use synchronization to ensure that the lock is acquired and released correctly.
+* 
+* Write a Java program that implements a bounded buffer using semaphores. The buffer has a fixed size and can hold a certain number of items. The producer thread adds items to the buffer, and the consumer thread removes items from the buffer. Use semaphores to ensure that the buffer is accessed correctly.
+* 
+* 
+* 
+* 
+* 
+* Write a Java program that simulates a message queue. Multiple threads can add messages to the queue, and multiple threads can remove messages from the queue. Use synchronization to ensure that the queue is accessed correctly.
+* 
+* Write a Java program that implements a thread-safe singleton class. The class should have a private constructor and a getInstance() method that returns the single instance of the class. Use synchronization to ensure that the instance is created and returned correctly.
+* 
+* Write a Java program that simulates a game of tic-tac-toe. Two players take turns placing Xs and Os on a 3x3 grid. Use synchronization to ensure that the players take turns correctly and that the grid is updated correctly.
+* 
+* Write a Java program that simulates a thread pool with dynamic resizing. The program should accept a list of tasks and execute them concurrently using the thread pool. The pool should resize itself dynamically based on the workload.
+* 
+* Write a Java program that simulates a counting semaphore. Multiple threads can acquire and release the semaphore, and the semaphore should block threads if the maximum count is reached. Use synchronization to ensure that the semaphore is accessed correctly.
+* 
+* Write a Java program that simulates a file server. Multiple clients can request files from the server, and the server should return the files if they exist. Use synchronization to ensure that the files are accessed correctly.
+* 
+* Write a Java program that simulates a web server. Multiple clients can request web pages from the server, and the server should return the pages if they exist. Use synchronization to ensure that the pages are accessed correctly.
+* 
+* Write a Java program that simulates a database connection pool. The program should accept requests for database connections and return connections to the pool when they are no longer needed. Use synchronization to ensure that the connections are accessed correctly.
+* 
+* Write a Java program that simulates a thread-safe queue. The queue should support multiple producers and multiple consumers, and it should block producers if the queue is full and block consumers if the queue is empty. Use synchronization to ensure that the queue is accessed correctly.
+* 
+* Write a Java program that simulates a thread-safe map. The map should support multiple threads adding and removing entries, and it should ensure that each key is unique. Use synchronization to ensure that the map is accessed correctly.
+* 
+* Write a Java program that simulates a thread-safe stack. The stack should support multiple threads pushing and popping items, and it should block threads if the stack is empty or full. Use synchronization to ensure that the stack is accessed correctly.
+* 
+* Write a Java program that simulates a thread-safe set. The set should support multiple threads adding and removing items, and it should ensure that each item is unique. Use synchronization to ensure that the set is accessed correctly.
+* 
+* Write a Java program that simulates a thread-safe counter. The counter should support multiple threads incrementing and decrementing the value, and it should ensure that the value never goes below zero. Use synchronization to ensure that the counter is accessed correctly.
+* 
+* Write a Java program that simulates a thread-safe log. The log should support multiple threads adding entries, and it should ensure that the entries are written to disk in the correct order. Use synchronization to ensure that the log is accessed correctly.
+* 
+* Write a Java program that simulates a thread-safe cache. The cache should support multiple threads adding and removing items, and it should ensure that the cache is not overfilled. Use synchronization to ensure that the cache is accessed correctly.
+* 
+* Write a Java program that simulates a thread-safe message bus. The bus should support multiple publishers and multiple subscribers, and it should ensure that messages are delivered
 
+* Write a program to demonstrate the usage of the synchronized keyword.
+* Implement a simple chat application using multithreading and sockets.
+* Write a program to simulate a race between multiple runners, each represented by a separate thread.
+* Implement a program to demonstrate the usage of the Semaphore class in Java.
+* Write a program to demonstrate the usage of the ReentrantLock class in Java.
+* Implement a program to demonstrate the usage of the CyclicBarrier class in Java.
+* Write a program to demonstrate the usage of the Phaser class in Java.
+* Implement a program to demonstrate the usage of the CompletableFuture class in Java.
+* Write a program to demonstrate the usage of the Executor framework in Java.
+* Implement a program to demonstrate the usage of the Callable interface in Java.
+* Write a program to demonstrate the usage of the Runnable interface in Java.
+* Implement a program to demonstrate the usage of the CountDownLatch class in Java.
+* Write a program to demonstrate the usage of the ConcurrentHashMap class in Java.
+* Implement a program to demonstrate the usage of the CopyOnWriteArrayList class in Java.
+* Write a program to demonstrate the usage of the BlockingQueue interface in Java.
+* 
+* 
 
 ---
 
