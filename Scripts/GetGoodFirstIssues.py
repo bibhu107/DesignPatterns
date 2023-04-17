@@ -1,6 +1,8 @@
 # If you are a new to open source and want to try easy issues first then this script can be useful
 # To run this script you must have GithubPersonalToken
 # Sample running command 
+#Install pip install PyGithub
+
 #  python3 GetGoodFirstIssues.py --period 10 --stars 2000 --language java
 
 import argparse
@@ -35,6 +37,6 @@ for repo in results:
     issues = repo.get_issues(labels=["good first issue"])
     issues = sorted(issues, key=lambda issue: issue.created_at)
     period_ago = datetime.now() - timedelta(days=args.period)
-    new_issues = [issue for issue in issues if issue.created_at > period_ago and (not issue.assignee or (issue.stale and issue.updated_at < period_ago - timedelta(days=14)))] # modify this line
+    new_issues = [issue for issue in issues if issue.created_at > period_ago and (not issue.assignee or (issue.state == 'open' and issue.updated_at < period_ago - timedelta(days=14)))]    
     for issue in new_issues:
         print(f"{repo.name}: {issue.title} - {issue.html_url}")
