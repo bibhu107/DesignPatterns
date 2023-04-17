@@ -30,10 +30,11 @@ query = f"language:{args.language} stars:>{args.stars}"
 results = g.search_repositories(query)
 
 # Print the list of good first issues in each repository, sorted by creation date and filtered by age
+# Filter issues that are not assigned or marked as stale for more than 14 days
 for repo in results:
     issues = repo.get_issues(labels=["good first issue"])
     issues = sorted(issues, key=lambda issue: issue.created_at)
     period_ago = datetime.now() - timedelta(days=args.period)
-    new_issues = [issue for issue in issues if issue.created_at > period_ago]
+    new_issues = [issue for issue in issues if issue.created_at > period_ago and (not issue.assignee or (issue.stale and issue.updated_at < period_ago - timedelta(days=14)))] # modify this line
     for issue in new_issues:
         print(f"{repo.name}: {issue.title} - {issue.html_url}")
