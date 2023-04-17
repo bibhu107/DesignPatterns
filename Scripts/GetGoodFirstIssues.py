@@ -1,6 +1,7 @@
 # If you are a new to open source and want to try easy issues first then this script can be useful
 # To run this script you must have GithubPersonalToken
-# Sample running command python myscript.py --period 30 --stars 5000
+# Sample running command 
+# python get_good_first_issues.py --period 180 --stars 2000 --language java
 
 import argparse
 from datetime import datetime, timedelta
