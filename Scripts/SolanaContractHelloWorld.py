@@ -1,3 +1,7 @@
+# python3 -m venv myenv
+# source myenv/bin/activate
+
+
 from solana.account import Account
 from solana.publickey import PublicKey
 from solana.rpc.api import Client
